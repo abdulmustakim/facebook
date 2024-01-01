@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+#ltext{
+    width:100%;
+    background-color: rgb(253, 253, 199);
+    height:40px;
+    color: rgb(45, 85, 216);text-align: center;
+    padding-top: 10px;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 500;
+
+}
+
+#login_page{
+    text-align: center;
+    
+}
+
+#facename{
+    margin-top: 16px;
+    color: rgb(0, 60, 255);
+    font-size: 24px;
+    font-family:sans-serif;
+    font-weight: 600;
+}
+
+#mobilenum{
+    width:93%;
+    height:40px;
+    margin-top: 15px;
+    padding-left: 10px;
+   border-radius: 5px;
+    box-shadow: 1px 1px 1px grey;
+    background-color: rgb(221, 238, 253);
+    border: none;
+}
+
+#logpass{
+    width:93%;
+    height:40px;
+    margin-top: 10px;
+    padding-left: 10px;
+   border-radius: 5px;
+    box-shadow: 1px 1px 1px grey;
+    background-color: rgb(221, 238, 253);
+    border: none;
+}
+
+#logbtn{
+    width:93%;
+    height:40px;
+    margin-top: 10px;
+    background-color: rgb(0,60, 255);
+    color: aliceblue;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+#lft{
+    color: rgb(25, 70, 218);
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+    margin-top: 20px;
+    text-align: center;
+   
+
+}
+
+.line{
+    position: absolute;
+    height:2px;
+    width:100%;
+    background-color: black;
+
+}
+
+.left{
+    left: 0;
+}
+
+.right{
+    right:0;
+}
+
+.content{
+    padding:20px;
+    background-color:white;
+    z-index: 1;
+}
+
+#cna{
+    background-color: white;
+    margin-top: 26px;
+    width:70%;
+    height:40px;
+    border-radius: 5px;
+    border: 1px solid rgb(165, 165, 165);
+    box-shadow: 1px 1px 1px grey;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.textfooter{
+    width: 100%;
+    height:250px;
+    background-color: blue;
+
+}
+
+
+#imgfooter{
+    width:100%
+}
